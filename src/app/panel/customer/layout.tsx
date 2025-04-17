@@ -55,7 +55,9 @@ export default function CustomerLayout({
         />
 
         <main
-          className={`${sideBarStatus ? "w-[calc(100%_-_250px)]" : "w-[calc(100%_-_100px)]"} transition-all ease-in-out duration-200 rounded-r-[3rem] mr-auto bg-[var(--foregraund)] h-screen overflow-x-hidden overflow-y-auto `}
+          className={`${
+            sideBarStatus ? "w-[calc(100%_-_250px)]" : "w-[calc(100%_-_100px)]"
+          } transition-all p-6 ease-in-out duration-200 rounded-r-[3rem] mr-auto bg-[var(--foregraund)] h-screen overflow-x-hidden overflow-y-auto `}
         >
           {children}
         </main>
