@@ -8,7 +8,7 @@ const CarInfoCard = () => {
   return (
     <div>
       <Splide
-        className="w-full h-[250px]"
+        className="w-full h-[300px] mt-16"
         options={{
           direction: "rtl",
           type: "loop",
