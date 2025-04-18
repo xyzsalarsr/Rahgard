@@ -26,7 +26,9 @@ const BatteryStatus: React.FC<BatteryStatusProps> = ({ level }) => {
           %<span className="text-lg font-bold">{level}</span>
         </span>
       </div>
-      <span className="text-sm mt-2 block text-center">{level} درصد</span>
+      <span className="text-sm mt-4 text-white/80 block text-center">
+        {level} درصد
+      </span>
     </div>
   );
 };
