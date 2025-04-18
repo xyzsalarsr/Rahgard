@@ -24,7 +24,9 @@ const NetworkStatus: React.FC<NetworkStatusProps> = ({ level, speed }) => {
           );
         })}
       </div>
-      <span className="text-sm mt-4 text-white/80 block text-center">{speed}</span>
+      <span className="text-sm mt-4 text-white/80 block text-center">
+        {speed}
+      </span>
     </div>
   );
 };

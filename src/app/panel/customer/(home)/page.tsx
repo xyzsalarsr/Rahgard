@@ -3,6 +3,7 @@
 import AllStatus from "./components/AllStatus";
 import CarInfoCard from "./components/CarInfoCard";
 import Map from "./components/Map";
+import TripChart from "./components/TripChart";
 
 export default function CustomerHome() {
   return (
@@ -15,6 +16,9 @@ export default function CustomerHome() {
       </div>
       <div className="col-span-12">
         <AllStatus />
+      </div>
+      <div className="col-span-12">
+        <TripChart />
       </div>
     </div>
   );
